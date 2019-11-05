@@ -1,4 +1,5 @@
 import React from 'react';
+import './social.css';
 import facebook from '../../assets/facebook.png';
 import insta from '../../assets/instagram.png';
 import linkedin from '../../assets/linkedin.png';

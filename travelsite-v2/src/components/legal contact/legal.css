@@ -1,0 +1,32 @@
+.legal-contact {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #152656;
+    color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  /* .legal-terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  } */
+  
+  .legal-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+  }
+  
+  .legal-items {
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fefefe;
+  }

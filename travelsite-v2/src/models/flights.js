@@ -7,6 +7,7 @@ export class flights {
     travelTime
     layovers
     price
+    selected
 
     constructor(flightId=0, departLoc='', arrivalLoc='', departTime='', arrivalTime='', travelTime=0, layovers=0, price=''){
         this.flightId = flightId;

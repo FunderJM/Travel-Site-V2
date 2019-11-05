@@ -1,7 +1,6 @@
 import React from 'react';
-import { TravelFormComp } from '../forms/travelform.component';
-import { DepartureFlightComp } from '../flights/departure.component';
-import { ReturnFlightComp } from '../flights/return.component';
+import './booking.css';
+import { TravelFormComp } from '../travel form/travelform.component';
 
 export class HomeComp extends React.Component {
     constructor(){
@@ -20,14 +19,8 @@ export class HomeComp extends React.Component {
     render(){
         return(
             <div className='full-page col-9 col-s-12'>
-                <div className='home-contain'>
+                <div className='book-contain'>
                     <TravelFormComp />
-                    <div className='flights-dep'>
-                    <DepartureFlightComp />
-                    </div>
-                    <div className='flights-return'>
-                    <ReturnFlightComp />
-                    </div>
                 </div>
             </div>
         )

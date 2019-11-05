@@ -1,7 +1,7 @@
 import React from 'react';
+import './navbar.css';
 import { Link } from 'react-router-dom';
 import larkbunting from '../../assets/larkbunting.png';
-import { SocialLinksComp } from '../social links/social.component';
 import menu from '../../assets/Menu.png';
 
 export class NavbarComp extends React.PureComponent {
@@ -21,32 +21,24 @@ export class NavbarComp extends React.PureComponent {
                 <div className='navbar-right'>
                     <ul id='nav-list'>
                         <li className='navbar-list-item'>
-                            <Link to='/home' className='nav-items'>
-                                Home
+                            <Link to='/cart' className='nav-items'>
+                                Cart
                             </Link>
                         </li>
                         <li className='navbar-list-item'>
-                            <Link to='/home' className='nav-items'>
-                                About Us
+                            <Link to='/booking' className='nav-items'>
+                                Booking
                             </Link>
                         </li>
                         <li className='navbar-list-item'>
-                            <Link to='/home' className='nav-items'>
-                                Legal
+                            <Link to='/frequent_flyer' className='nav-items'>
+                                Frequent Flying
                             </Link>
                         </li>
                         <li className='navbar-list-item'>
                             <Link to='/employement_application' className='nav-items'>
                                 Careers
                             </Link>
-                        </li>
-                        <li className='navbar-list-item'>
-                            <Link to='/home' className='nav-items'>
-                                Contact Us
-                            </Link>
-                        </li>
-                        <li className='navbar-list-item'>
-                            <SocialLinksComp />
                         </li>
                     </ul>
                 </div>

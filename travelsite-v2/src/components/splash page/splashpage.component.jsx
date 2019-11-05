@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './splash.css';
 // import larkbunting from '../../assets/larkbunting.png';
 import { SplashCarousel } from './splashcarousel.component';
-import { SocialLinksComp } from '../social links/social.component';
+// import { SocialLinksComp } from '../social links/social.component';
 
 export class SplashPageComp extends React.Component {
 
@@ -17,10 +17,10 @@ export class SplashPageComp extends React.Component {
                     <Link to="/home">
                         <button id="welcome-button" type="submit">Continue</button>
                     </Link> */}
-                    <div className='media-contact'>
+                    {/* <div className='media-contact'>
                         <h1>Follow us on Social Media</h1>
                         <SocialLinksComp id='splash-soc' />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )

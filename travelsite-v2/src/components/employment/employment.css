@@ -1,0 +1,71 @@
+#employmentpage {
+    background-image: url('../../assets/airportloungestock.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #employment-form {
+    margin-top: 90px;
+    height: fit-content;
+    width: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(225,225,225,0.8);
+  }
+  
+  #employment-form-names {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* #lastname {
+    width: 100%;
+  } */
+  
+  #employment-form-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.job-card {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #fefefe;
+}
+
+.job-card-pop {
+  position: absolute;
+  margin: 0 auto;
+  top: 25%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: rgba(225,225,225,1);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.job-button {
+  all: unset;
+}
+
+.job-pop-up-button-close {
+  justify-self: flex-end;
+  background-color: red;
+  border-color: red;
+}
+.job-pop-up-button {
+  width: 50%;
+  justify-self: center;
+}

@@ -1,0 +1,96 @@
+.main-form {
+    height: 600px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: url('../../assets/plane.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  @-moz-keyframes swim {
+    from { background-position: 200% 0, 0 0;}
+    to { background-position: -100% 0, 0 0;}
+  }
+  
+  @-webkit-keyframes swim {
+    from { background-position: 200% 0, 0 0;}
+    to { background-position: -100% 0, 0 0;}
+  }
+  
+  @keyframes swim {
+    from { background-position: 200% 0, 0 0;}
+    to { background-position: -100% 0, 0 0;}
+  }
+  
+  #travel-main {
+    background-color: #fefefe;
+  }
+  
+  .travel-form {
+    margin: auto;
+    height: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(225,225,225,0.8);
+  }
+  
+  .to-and-fro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .btwn-destinations {
+    margin: 20px;
+  }
+  
+  .trip-timing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* #type-of-trip {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  #passenger-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .pass-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .search {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .form-pass {
+    width: 40px;
+  }
+  
+  #flights-dep {
+    display: none;
+    background-color: #fefefe;
+  }
+  
+  #flights-return {
+    display: none;
+    margin-bottom: 12px;
+    background-color: #fefefe;
+  }

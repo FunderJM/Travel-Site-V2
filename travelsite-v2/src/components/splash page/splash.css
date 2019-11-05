@@ -1,0 +1,139 @@
+/* #splash-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  position: relative;
+  animation-name: flyaround;
+  animation-duration: 4s;
+  animation-direction: normal;
+}
+
+@keyframes flyaround {
+  0% {left: 0px; top: 0px;}
+  12.5% {left: -300px; top: 0px;}
+  25% {left: -300px; top: 300px;}
+  37.5% {left: 0px; top: 300x;}
+  50% {left: 300px; top: 300px;}
+  62.5% {left: 300px; top: 0px;}
+  75% {left: -50px; top: 0px;}
+  87.5% {left: 50px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+
+@-webkit-keyframes flyaround {
+  0% {left: 0px; top: 0px;}
+  12.5% {left: -300px; top: 0px;}
+  25% {left: -300px; top: 300px;}
+  37.5% {left: 0px; top: 300x;}
+  50% {left: 300px; top: 300px;}
+  62.5% {left: 300px; top: 0px;}
+  75% {left: -75px; top: 0px;}
+  87.5% {left: 75px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+} */
+
+#splash-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .carousel-image{
+    height: 600px;
+  }
+  
+  .carousel-text{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #carousel-bunting {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: rgba(45,45,45,0.8);
+    border-radius: 30px;
+    padding: 5px;
+  }
+  
+  .airline-name {
+    color: #fefefe;
+    font-size: 64px;
+    margin-bottom: 0px;
+  }
+  
+  .airline-slogan {
+    color: #fefefe;
+    font-size: 32px;
+    margin-top: 0px;
+  }
+  
+  #getaway-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:  rgba(225,225,225,0.8);
+    border-radius: 30px;
+    padding: 5px;
+  }
+  
+  .getaway-head{
+    color: #111111;
+    font-size: 64px;
+  }
+  
+  .getaway-text{
+    color: #111111;
+    font-size: 32px;
+  }
+  
+  .media-contact {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #splash-soc{
+    align-self: center;
+  }
+  
+  #business-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .business-head{
+    color: #fefefe;
+    font-size: 64px;
+  }
+  
+  .business-text{
+    color: #fefefe;
+    font-size: 32px;
+  }
+  
+  #career-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(45,45,45,0.8);
+    border-radius: 30px;
+    padding: 5px;
+  }
+  
+  .career-head{
+    color: #fefefe;
+    font-size: 64px;
+  }
+  
+  .career-text{
+    color: #fefefe;
+    font-size: 32px;
+  }

@@ -1,0 +1,35 @@
+.cart-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .cart-contain {
+    background-color: #fefefe;
+  }
+  
+  .remove-button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .flight-remove-button {
+    all: unset;
+  }
+  
+  #red-x {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cart-purchase {
+    align-self: flex-end;
+  }
+  
+  #cart-link {
+    text-decoration: none;
+    color: #111111;
+  }

@@ -20,7 +20,7 @@ export class SplashCarousel extends React.Component {
                 interval={5000}
             >
                 <div className='carousel-slide'>
-                    <Link to='/home'>
+                    <Link to='/booking'>
                         <img className='carousel-image' src={larkbunting} alt='lark bunting'/>
                         <div id='carousel-bunting' className='carousel-text'>
                             <h1 className='airline-name'>Bunting Airlines</h1>
@@ -29,7 +29,7 @@ export class SplashCarousel extends React.Component {
                     </Link>
                 </div>
                 <div className='carousel-slide'>
-                    <Link to='/home'>
+                    <Link to='/booking'>
                         <img className='carousel-image' src={beachfront} alt='beach front'/>
                         <div id='getaway-box' className='carousel-text'>
                             <h1 className='getaway-head'>Need a Getaway?</h1>
@@ -38,7 +38,7 @@ export class SplashCarousel extends React.Component {
                     </Link>
                 </div>
                 <div className='carousel-slide'>
-                    <Link to='/home'>
+                    <Link to='/booking'>
                         <img className='carousel-image' src={city} alt='city'/>
                         <div id='business-box' className='carousel-text'>
                             <h1 className='business-head'>Flying on Business?</h1>
