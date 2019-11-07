@@ -20,7 +20,7 @@ export class FrequentFlyerComp extends React.Component {
                 <div>
                     <img id='flyer-image' src={bunting2} alt='lark bunting' />
                 </div>
-                <div>
+                <div className='flyer-text'>
                     <h4>Earn Points for every flight</h4>
                     <p>You can earn points based on both the type of fair, and how much you pay.
                          Taxes and other non airline specific fees do not count towards your

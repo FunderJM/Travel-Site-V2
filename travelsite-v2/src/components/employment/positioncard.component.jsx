@@ -6,7 +6,7 @@ export class PositionCardComp extends React.Component {
         let job = this.props.job;
 
         return (
-            <div className='job-card col-12 col-s-12'>
+            <div className='job-card col-9 col-s-12'>
                 
                 <div className='job-title'><strong>Job Title:</strong> {job.title}</div>
                 <div className='job-number'><strong>Job Number:</strong> {job.number}</div>

@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: #cecece;
+  background-color: #1b2435;
 }
 
 .full-page {
@@ -21,6 +21,7 @@
   align-content: center;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*********
@@ -59,4 +60,8 @@ Mobile Devices
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+
+button {
+  font-family: inherit;
 }

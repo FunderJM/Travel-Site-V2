@@ -52,19 +52,19 @@
     position: absolute;
     top: 8px;
     right: 16px;
-    background-color: rgba(45,45,45,0.8);
+    background-color: rgba(27,36,53,0.75);
     border-radius: 30px;
     padding: 5px;
   }
   
   .airline-name {
-    color: #fefefe;
+    color: #ff008c;
     font-size: 64px;
     margin-bottom: 0px;
   }
   
   .airline-slogan {
-    color: #fefefe;
+    color: #ff008c;
     font-size: 32px;
     margin-top: 0px;
   }
@@ -74,18 +74,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:  rgba(225,225,225,0.8);
+    background-color:  rgba(27,36,53,0.75);
     border-radius: 30px;
     padding: 5px;
   }
   
   .getaway-head{
-    color: #111111;
+    color: #ff008c;
     font-size: 64px;
   }
   
   .getaway-text{
-    color: #111111;
+    color: #ff008c;
     font-size: 32px;
   }
   
@@ -106,15 +106,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color:  rgba(27,36,53,0.75);
+    border-radius: 30px;
+    padding: 5px;
   }
   
   .business-head{
-    color: #fefefe;
+    color: #ff008c;
     font-size: 64px;
   }
   
   .business-text{
-    color: #fefefe;
+    color: #ff008c;
     font-size: 32px;
   }
   
@@ -123,17 +126,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(45,45,45,0.8);
+    background-color: rgba(27,36,53,0.75);
     border-radius: 30px;
     padding: 5px;
   }
   
   .career-head{
-    color: #fefefe;
+    color: #ff008c;
     font-size: 64px;
   }
   
   .career-text{
-    color: #fefefe;
+    color: #ff008c;
     font-size: 32px;
   }

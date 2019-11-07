@@ -13,7 +13,7 @@ export class ThankComp extends React.Component {
 
     render() {
         return(
-            <div className='main-content col-9 col-s-12'>
+            <div className='main-content col-9 col-s-12 cart-contain'>
                 <h1>Thank you for booking with us!</h1>
                 <h3>Your order number is #764285193</h3>
                 <div>

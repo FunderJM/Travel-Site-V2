@@ -48,12 +48,14 @@ export class EmployementComp extends React.Component {
                         Search
                     </button>
                 </form>
-                <div className='col-9 col-s-12'>
+                <div className='job-postings col-9 col-s-12'>
                     {this.state.posting.map( job => (
                         <button onClick={this.togglePopup.bind(this)} className='job-button'>
                         <PositionCardComp key={job.title} job={job} />
                         </button>
                     ))}
+                </div>
+                <div className='job-pop-up col-9 col-s-12'>
                     {this.state.showPositionPopup ?
                     <PositionPopUpComp job={job} closePopup={this.togglePopup.bind(this)} />: null
                     }

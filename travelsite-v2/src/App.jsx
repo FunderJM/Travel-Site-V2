@@ -15,6 +15,12 @@ function App() {
 
   return (
     <div>
+      <head>
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+      </style>
+      </head>
+      <body>
       <BrowserRouter>
         <NavbarComp />
         <div id="main-content-container">
@@ -30,6 +36,7 @@ function App() {
         <LegalComp />
       </BrowserRouter>
       {/* <SocialLinksComp /> */}
+      </body>
     </div>
   );
 }

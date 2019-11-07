@@ -16,15 +16,18 @@
 }
 
 #First {
-    background-color: gold;
+    background-color: #ff008c;
+    color: #fefefe;
 }
 
 #Comfort {
-    background-color: #98a6af;
+    background-color: #4b3bd0;
+    color: #fefefe;
 }
 
 #Economy {
-    background-color: #98a6af;
+    background-color: #00dfa5;
+    color: #fefefe;
 }
 
 .flyer-type {
@@ -45,4 +48,8 @@
 .calc-x {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.flyer-text {
+    color: #fefefe;
 }

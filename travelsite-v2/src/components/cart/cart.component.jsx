@@ -18,7 +18,14 @@ export class CartComp extends React.Component {
 
     render(){
         return(
-            <div className='main-content col-9 col-s-12'>
+            <div className='main-content col-9 col-s-12 cart-contain'>
+                <div className='cart-purchase'>
+                    <button className='cart-button' type='submit' onClick={() => {selectedFlight.splice(0,selectedFlight.length)}}>
+                        <Link id='cart-link' to='/cart'>
+                            Remove All Items
+                        </Link>
+                    </button>
+                </div>
                 <div className='cart-contain'>
                     {this.state.inCart.map( flight => (
                         <CartCardComp key={flight.flightId} flight={flight} />
@@ -30,14 +37,7 @@ export class CartComp extends React.Component {
                             Purchase
                         </Link>
                     </button>
-                </div>
-                <div className='cart-purchase'>
-                    <button className='cart-button' type='submit' onClick={() => {selectedFlight.splice(0,selectedFlight.length)}}>
-                        <Link id='cart-link' to='/cart'>
-                            Remove All Items
-                        </Link>
-                    </button>
-                </div>
+                </div>                
             </div>
         )
     }
